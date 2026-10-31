@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Collection</title>
+  <!-- Google Fonts: ดึงฟอนต์สไตล์โมเดิร์นมาใช้งาน -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Prompt:wght@300;400;600&display=swap" rel="stylesheet">
+  <!-- Font Awesome สำหรับไอคอนโซเชียล -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- แถบเมนูด้านบน (Header / Navbar) -->
+  <header class="navbar">
+    <nav class="nav-links left-nav">
+      <a href="#home" class="active">HOME</a>
+      <a href="#about">ABOUT</a>
+      <a href="#gallery">GALLERY</a>
+      <a href="#story">STORY</a>
+    </nav>
+
+    <!-- โลโก้ตรงกลาง Navbar -->
+    <div class="logo">
+      <div class="logo-icon">
+        <i class="fa-solid fa-users"></i> <!-- เปลี่ยนเป็นไอคอนกลุ่มคนตามรูป -->
+      </div>
+      <span class="logo-title">MY COLLECTION</span>
+      <span class="logo-subtitle">& DESIGN</span>
+    </div>
+
+    <div class="right-nav">
+      <a href="#contact" class="contact-link">CONTACT</a>
+      <div class="social-icons">
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#"><i class="fa-regular fa-envelope"></i></a>
+        <a href="#"><i class="fa-solid fa-phone"></i></a>
+      </div>
+    </div>
+  </header>
+
+  <!-- เนื้อหาหลัก (Hero Section) -->
+  <main class="hero-container">
+    
+    <!-- ฝั่งซ้าย: ข้อความและปุ่ม Call to Action -->
+    <div class="hero-text">
+      <h1 class="hero-title">
+        THE STRAW HAT PIRATES<br>
+        MONKEY D. LUFFY — THE CAPTAIN
+      </h1>
+
+      <p class="hero-desc">
+        "ฉันจะเป็นราชาโจรสลัดให้ได้เลย!"ออกเดินทางสู่แกรนด์ไลน์ไปกับกลุ่มโจรสลัดหมวกฟาง นำโดย มังกี้ ดี. ลูฟี่ ชายหนุ่มผู้ครอบครองพลังยางและมีเป้าหมายสูงสุดคือการตามหาสมบัติในตำนานอย่าง "วันพีซ"
+      </p>
+
+      <p class="hero-desc">
+        เพื่ออิสรภาพที่แท้จริงร่วมสัมผัสเรื่องราว ค่าหัว และบทบาทสำคัญของสมาชิกแต่ละคนบนเรือเธาซันด์ ซันนี่ ที่ร่วมฟันฝ่าทุกคลื่นลมไปด้วยกัน
+      </p>
+
+      <p class="hero-highlight">
+        <strong>Join the journey — Set sail today!</strong>
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#gallery" class="btn btn-primary">CREW MEMBERS</a>
+        <a href="#story" class="btn btn-secondary">READ STORY</a>
+      </div>
+    </div>
+
+    <!-- ฝั่งขวา: แกลเลอรีรูปภาพแบบ 2 คอลัมน์ -->
+    <div class="hero-gallery">
+      <!-- คอลัมน์ที่ 1 (ภาพแนวตั้ง 2 รูป) -->
+      <div class="gallery-col">
+        <div class="gallery-item item-tall">
+          <img src="image/1.jpg"Collection item 1">
+        </div>
+        <div class="gallery-item item-tall">
+          <img src="image/2.jpg" alt="Collection item 2">
+        </div>
+      </div>
+
+      <!-- คอลัมน์ที่ 2 (ภาพ 3 สัดส่วนต่างกัน) -->
+      <div class="gallery-col">
+        <div class="gallery-item item-landscape">
+          <img src="image/3.jpg" alt="Collection item 3">
+        </div>
+        <div class="gallery-item item-portrait">
+          <img src="image/4.jpg" alt="Collection item 4">
+        </div>
+        <div class="gallery-item item-square">
+          <img src="image/5.jpg" alt="Collection item 5">
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ==================== ส่วน ABOUT SECTION ==================== -->
+  <section id="about" class="about-section">
+    <div class="about-container">
+      
+      <!-- ฝั่งซ้าย: รูปภาพคอลเลกชัน 3 รูป -->
+      <div class="about-gallery">
+        <!-- คอลัมน์ย่อยด้านซ้าย (2 รูปซ้อนกัน) -->
+        <div class="about-col-left">
+          <div class="about-img-box item-sm-top">
+            <img src="image/6.jpg" alt="About artwork 1">
+          </div>
+          <div class="about-img-box item-sm-bottom">
+            <img src="image/7.jpg" alt="About artwork 2">
+          </div>
+        </div>
+
+        <!-- คอลัมน์ย่อยด้านขวา (รูปยาวรูปเดียว) -->
+        <div class="about-col-right">
+          <div class="about-img-box item-tall-single">
+            <img src="image/8.jpg" alt="About artist portrait">
+          </div>
+        </div>
+      </div>
+
+      <!-- ฝั่งขวา: ข้อความ ABOUT -->
+      <div class="about-content">
+        <h2 class="about-title">ABOUT</h2>
+
+        <p>
+          มังกี้ ดี. ลูฟี่ (Monkey D. Luffy) คือตัวเอกของมหากาพย์ One Piece กัปตันของกลุ่มโจรสลัดหมวกฟาง และหนึ่งในสี่จักรพรรดิคนปัจจุบัน ผู้ขับเคลื่อนยุคสมัยด้วยความฝันในการค้นหาขุมทรัพย์วันพีซและนิยามความเป็นราชาโจรสลัดผ่าน "อิสรภาพ"
+        </p>
+
+        <p>
+          แม้ภายนอกลูฟี่จะดูไร้เดียงสา รักสนุก รักการกินเนื้อเป็นชีวิตจิตใจ และไม่ชอบการวางแผนที่ซับซ้อน แต่เขามีสัญชาตญาณในการต่อสู้และการอ่านใจคนอย่างแม่นยำ
+        </p>
+
+        <p>
+          ลูฟี่ไม่ต้องการเป็นฮีโร่ (เพราะเขาบอกว่าฮีโร่ต้องแบ่งเนื้อให้คนอื่น แต่เขาอยากกินเนื้อคนเดียว) ทว่าทุกเกาะที่เขาแล่นเรือผ่าน การกระทำที่ทำตามใจรักเพื่อนและต่อต้านความอยุติธรรม กลับปลดปล่อยผู้คนจากการกดขี่ของเผด็จการเสมอ
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== ส่วน GALLERY SECTION (9 ช่อง) ==================== -->
+  <section id="gallery" class="gallery-section">
+    <div class="gallery-header">
+      <h2 class="gallery-main-title">GALLERY</h2>
+      <div class="gallery-underline"></div>
+    </div>
+
+    <!-- กริดแสดงผล 9 ช่อง (3x3) -->
+    <div class="gallery-grid">
+      
+      <!-- ชิ้นที่ 1 -->
+      <div class="card-item" onclick="openModal('Roronoa Zoro', 'นักดาบ / หน่วยต่อสู้ ของกลุ่ม มีเป้าหมายเป็นนักดาบอันดับหนึ่งของโลก', 'image/zoro.jpg')">
+        <img src="image/zoro.jpg" alt="Roronoa Zoro">
+        <div class="card-overlay">
+          <h3 class="card-title">Roronoa Zoro</h3>
+          <button class="btn-view">VIEW</button>
+        </div>
+      </div>
+
+      <!-- ชิ้นที่ 2 -->
+      <div class="card-item" onclick="openModal('Nami ', 'ต้นหน (นักเดินเรือ) มีหน้าที่วางแผนการเดินเรือ อ่านสภาพอากาศ และดูแลการเงิน/บัญชีของกลุ่ม', 'image/nami.jpg')">
+        <img src="image/nami.jpg" alt="Nami ">
+        <div class="card-overlay">
+          <h3 class="card-title">Nami </h3>
+          <button class="btn-view">VIEW</button>
+        </div>
+      </div>
+
+      <!-- ชิ้นที่ 3 -->
+      <div class="card-item" onclick="openModal('Usopp ', 'พลแม่นปืน และช่างประดิษฐ์อุปกรณ์ต่างๆ ประจำเรือ', 'image/Usopp.jpg')">
+        <img src="image/Usopp.jpg" alt="Usopp ">
+        <div class="card-overlay">
+          <h3 class="card-title">Usopp </h3>
+          <button class="btn-view">VIEW</button>
+        </div>
+      </div>
+
+      <!-- ชิ้นที่ 4 -->
+      <div class="card-item" onclick="openModal('Vinsmoke Sanji', 'กุ๊ก (เชฟ) มีหน้าที่ทำอาหารและดูแลเสบียงให้ทุกคนบนเรือ', 'image/Sanji.jpg')">
+        <img src="image/Sanji.jpg" alt="Vinsmoke Sanji">
+        <div class="card-overlay">
+          <h3 class="card-title">Vinsmoke Sanji</h3>
+          <button class="btn-view">VIEW</button>
+        </div>
+      </div>
+
+      <!-- ชิ้นที่ 5 -->
+      <div class="card-item" onclick="openModal('Tony Tony Chopper', 'หมอประจำเรือ มีหน้าที่รักษาอาการบาดเจ็บและดูแลสุขภาพของลูกเรือ', 'image/Chopper.jpg')">
+        <img src="image/Chopper.jpg" alt="Tony Tony Chopper">
+        <div class="card-overlay">
+          <h3 class="card-title">Tony Tony Chopper</h3>
+          <button class="btn-view">VIEW</button>
+        </div>
+      </div>
+
+      <!-- ชิ้นที่ 6 -->
+      <div class="card-item" onclick="openModal('Nico Robin', 'นักโบราณคดี มีหน้าที่อ่านภาษาโบราณ (Poneglyph) เพื่อค้นหาความลับของประวัติศาสตร์และตำแหน่งวันพีซ', 'image/Robin.jpg')">
+        <img src="image/Robin.jpg" alt="Nico Robin">
+        <div class="card-overlay">
+          <h3 class="card-title">Nico Robin</h3>
+          <button class="btn-view">VIEW</button>
+        </div>
+      </div>
+
+      <!-- ชิ้นที่ 7 -->
+      <div class="card-item" onclick="openModal('Franky', 'ช่างซ่อมเรือ มีหน้าที่ดูแล บำรุงรักษา และสร้างเสริมสมรรถนะให้แก่เรือเธาซันด์ ซันนี่', 'image/Franky.jpg')">
+        <img src="image/Franky.jpg" alt="Franky">
+        <div class="card-overlay">
+          <h3 class="card-title">Franky</h3>
+          <button class="btn-view">VIEW</button>
+        </div>
+      </div>
+
+      <!-- ชิ้นที่ 8 -->
+      <div class="card-item" onclick="openModal('Brook ', 'นักดนตรี ประจำเรือ คอยสร้างเสียงเพลงและความบันเทิง รวมถึงใช้ความสามารถพิเศษในการต่อสู้', 'image/Brook.jpg')">
+        <img src="image/Brook.jpg" alt="Brook ">
+        <div class="card-overlay">
+          <h3 class="card-title">Brook </h3>
+          <button class="btn-view">VIEW</button>
+        </div>
+      </div>
+
+      <!-- ชิ้นที่ 9 -->
+      <div class="card-item" onclick="openModal('Jinbe ', 'ต้นหนมือสอง / พลขับเรือ (อดีตเจ็ดเทพโจรสลัด) มีความเชี่ยวชาญการเดินเรือและการรบทางน้ำระดับสูง', 'image/Jinbe.jpg')">
+        <img src="image/Jinbe.jpg" alt="Jinbe ">
+        <div class="card-overlay">
+          <h3 class="card-title">Jinbe </h3>
+          <button class="btn-view">VIEW</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ==================== ส่วน STORY SECTION (ONE PIECE CREW) ==================== -->
+  <section id="story" class="story-section">
+    <div class="story-container">
+
+      <!-- ตัวละครที่ 1: ลูฟี่ (ข้อความซ้าย - รูปขวา) -->
+      <article class="story-row">
+        <div class="story-text">
+          <div class="story-meta">
+            <span class="story-num">01</span>
+            <span class="story-divider"></span>
+            <span class="story-category">MONKEY D. LUFFY</span>
+          </div>
+          <h2 class="story-title">
+            The King<br>
+            <span class="accent-text">Of Pirates</span>
+          </h2>
+          <p class="story-desc">
+            เด็กหนุ่มผู้ได้รับหมวกฟางสืบทอดมาจากแชงคูส พร้อมคำมั่นสัญญาที่จะออกล่องทะเลเพื่อรวบรวมพรรคพวก ก่อตั้งกลุ่มโจรสลัดหมวกฟาง และมุ่งสู่การค้นหา "วันพีซ" เพื่อก้าวขึ้นเป็นราชาโจรสลัดที่มีอิสระที่สุดในโลก
+          </p>
+        </div>
+        <div class="story-visual">
+          <div class="photo-card tilt-right">
+            <img src="image/luffy.jpg" alt="Luffy Story">
+          </div>
+        </div>
+      </article>
+
+      <!-- ตัวละครที่ 2: โซโล (รูปซ้าย - ข้อความขวา) -->
+      <article class="story-row reverse">
+        <div class="story-text">
+          <div class="story-meta">
+            <span class="story-num">02</span>
+            <span class="story-divider"></span>
+            <span class="story-category">RORONOA ZORO</span>
+          </div>
+          <h2 class="story-title">
+            Greatest<br>
+            <span class="accent-text">Swordsman</span>
+          </h2>
+          <p class="story-desc">
+            นักดาบผู้ใช้เพลงดาบสามเล่มและรองกัปตันคนแรกของกลุ่มหมวกฟาง ผู้แบกรับคำสัญญาที่ให้ไว้กับคุอินะเพื่อนในวัยเด็ก มุ่งมั่นฝึกฝนขัดเกลาวิชาดาบผ่านศึกความเป็นความตาย เพื่อก้าวขึ้นเป็นนักดาบอันดับหนึ่งของโลก
+          </p>
+        </div>
+        <div class="story-visual">
+          <div class="photo-card tilt-left">
+            <img src="image/zoro.jpg" alt="Zoro Story">
+          </div>
+        </div>
+      </article>
+
+      <!-- ตัวละครที่ 3: นามิ (ข้อความซ้าย - รูปขวา) -->
+      <article class="story-row">
+        <div class="story-text">
+          <div class="story-meta">
+            <span class="story-num">03</span>
+            <span class="story-divider"></span>
+            <span class="story-category">NAMI</span>
+          </div>
+          <h2 class="story-title">
+            To draw a map<br>
+            <span class="accent-text">of the entire world</span>
+          </h2>
+          <p class="story-desc">
+            นามิและพี่สาวโนจิโกะเป็นเด็กกำพร้าจากสงครามที่ได้รับการเลี้ยงดูโดย เบลเมล อดีตทหารเรือหญิงที่หมู่บ้านโคโคยาชิ ต่อมากลุ่มโจรสลัดมนุษย์เงือกอารอนได้บุกยึดหมู่บ้านและสังหารเบลเมล นามิต้องยอมจำนนเข้าเป็นต้นหนให้พวกอารอน และออกตระเวนขโมยทรัพย์สินจากกลุ่มโจรสลัดอื่นเพื่อเก็บเงินให้ครบ 100 ล้านเบรีนำมาซื้ออิสรภาพคืนให้หมู่บ้าน แต่เมื่อถูกทรยศ ลูฟี่และพรรคพวกจึงเข้ามาปราบอารอนและปลดปล่อยเธออย่างแท้จริง ทำให้นามิตัดสินใจออกเรือร่วมกับลูฟี่
+          </p>
+        </div>
+        <div class="story-visual">
+          <div class="photo-card tilt-right">
+            <img src="image/nami.jpg" alt="Sanji Story">
+          </div>
+        </div>
+      </article>
+
+         <!-- ตัวละครที่ 4: อุซป (รูปซ้าย - ข้อความขวา) -->
+      <article class="story-row reverse">
+        <div class="story-text">
+          <div class="story-meta">
+            <span class="story-num">04</span>
+            <span class="story-divider"></span>
+            <span class="story-category">Usopp</span>
+          </div>
+          <h2 class="story-title">
+           To become a brave<br>
+            <span class="accent-text">warrior of the sea</span>
+          </h2>
+          <p class="story-desc">
+            ลูกชายของ ยาซป (พลแม่นปืนกลุ่มโจรสลัดผมแดง) อาศัยอยู่ที่หมู่บ้านไซรัปในอีสต์บลู หลังจากแม่ป่วยเสียชีวิต อุซปมักจะวิ่งตะโกนโกหกว่า "โจรสลัดบุก" ทุกเช้าเพื่อคลายความเหงาและสร้างความหวังให้ชาวบ้าน รวมถึงคอยเล่าเรื่องผจญภัยแต่งขึ้นเพื่อสร้างรอยยิ้มให้ คายะ เด็กสาวผู้มีฐานะที่ป่วยติดเตียง เมื่อกลุ่มของกัปตันคุโระวางแผนสังหารคายะเพื่อชิงสมบัติ อุซปได้ร่วมมือกับกลุ่มหมวกฟางปกป้องหมู่บ้าน และได้รับการมอบเรือ "โกอิ้ง แมรี่" ก่อนจะตัดสินใจร่วมเดินทาง          </p>
+        </div>
+        <div class="story-visual">
+          <div class="photo-card tilt-left">
+            <img src="image/Usopp.jpg" alt="Zoro Story">
+          </div>
+        </div>
+      </article>
+
+       <!-- ตัวละครที่ 5: ซันจิ (ข้อความซ้าย - รูปขวา) -->
+      <article class="story-row">
+        <div class="story-text">
+          <div class="story-meta">
+            <span class="story-num">05</span>
+            <span class="story-divider"></span>
+            <span class="story-category">SANJI VINSMOKE</span>
+          </div>
+          <h2 class="story-title">
+            Dreaming<br>
+            <span class="accent-text">All Blue</span>
+          </h2>
+          <p class="story-desc">
+            กุ๊กประจำเรือผู้สืบทอดจิตวิญญาณแห่งการปรุงอาหารและวิชาเตะจากเซฟขาแดง ยึดมั่นในเกียรติที่ไม่ใช้มือทำร้ายใครและไม่ปล่อยให้ใครต้องหิวโหย พร้อมออกตามหาผืนทะเลในตำนานที่เป็นแหล่งรวมปลาจากทั่วทุกมุมโลก
+          </p>
+        </div>
+        <div class="story-visual">
+          <div class="photo-card tilt-right">
+            <img src="image/Sanji.jpg" alt="Sanji Story">
+          </div>
+        </div>
+      </article>
+
+         <!-- ตัวละครที่ 6: ช็อปเปอร์ (รูปซ้าย - ข้อความขวา) -->
+      <article class="story-row reverse">
+        <div class="story-text">
+          <div class="story-meta">
+            <span class="story-num">06</span>
+            <span class="story-divider"></span>
+            <span class="story-category">TONY TONY CHOPPER</span>
+          </div>
+          <h2 class="story-title">
+            To become a doctor.<br>
+            <span class="accent-text">capable of curing any disease</span>
+          </h2>
+          <p class="story-desc">
+            กวางเรนเดียร์จมูกน้ำเงินจากเกาะดรัมที่ถูกฝูงขับไล่ และถูกมนุษย์รังเกียจหลังกิน ผลฮิโตะ ฮิโตะ (ผลมนุษย์) เข้าไป ช็อปเปอร์ได้รับการชุบเลี้ยงและสอนหลักการเป็นหมอโดย ดร.ฮิลรุค ผู้เปรียบเสมือนพ่อ หลังฮิลรุคเสียชีวิต เขาจึงไปเป็นลูกศิษย์ของ ดร.คุเรฮะ ร่ำเรียนศาสตร์การแพทย์อย่างจริงจัง เมื่อลูฟี่เดินทางมาถึงและช่วยปลดปล่อยเกาะจากการกดขี่ของวาโปล ลูฟี่เห็นคุณค่าของช็อปเปอร์ในฐานะเพื่อนและชวนขึ้นเรือ
+          </p>
+        </div>
+        <div class="story-visual">
+          <div class="photo-card tilt-left">
+            <img src="image/Chopper.jpg" alt="Zoro Story">
+          </div>
+        </div>
+      </article>
+
+       <!-- ตัวละครที่ 7:  โรบิน (ข้อความซ้าย - รูปขวา) -->
+      <article class="story-row">
+        <div class="story-text">
+          <div class="story-meta">
+            <span class="story-num">07</span>
+            <span class="story-divider"></span>
+            <span class="story-category">NICO ROBIN</span>
+          </div>
+          <h2 class="story-title">
+            To uncover the true history<br>
+            <span class="accent-text">of the Void Century</span>
+          </h2>
+          <p class="story-desc">
+            ผู้รอดชีวิตเพียงคนเดียวจากการล้างบางเกาะโอฮาราด้วย "บัสเตscrap คอล" ของกองทัพเรือตั้งแต่อายุ 8 ขวบ เนื่องจากชาวโอฮาราสามารถอ่านอักษรโบราณบนโพเนกลีฟได้ ทำให้เธอถูกตั้งค่าหัวตั้งแต่เด็กและต้องใช้ชีวิตหลบหนี ทรยศ และพึ่งพากลุ่มอาชญากรต่างๆ มาตลอดชีวิต จนกระทั่งเข้าเป็นรองประธานองค์กรบาร็อคเวิร์คส์ของคร็อกโคไดล์ เมื่อแผนการล่ม ลูฟี่ช่วยชีวิตเธอไว้ เธอจึงแอบขึ้นเรือและกลายเป็นส่วนหนึ่งของกลุ่ม แต่ในภาคเอนิเอสล็อบบี้ เธอถูกกลุ่มหมวกฟางบุกไปชิงตัวคืนมาจากรัฐบาลโลก ทำให้เธอเปิดใจและเอ่ยคำว่า "ฉันอยากมีชีวิตอยู่!"
+          </p>
+        </div>
+        <div class="story-visual">
+          <div class="photo-card tilt-right">
+            <img src="image/Robin.jpg" alt="Sanji Story">
+          </div>
+        </div>
+      </article>
+
+         <!-- ตัวละครที่ 8: แฟรงกี้ (รูปซ้าย - ข้อความขวา) -->
+      <article class="story-row reverse">
+        <div class="story-text">
+          <div class="story-meta">
+            <span class="story-num">08</span>
+            <span class="story-divider"></span>
+            <span class="story-category">FRANKY</span>
+          </div>
+          <h2 class="story-title">
+            To build a ship that can<br>
+            <span class="accent-text">conquer any ocean.</span>
+          </h2>
+          <p class="story-desc">
+            ลูกศิษย์ของ ทอม ช่างต่อเรือระดับตำนานผู้สร้างรถไฟเดินสมุทรและเรือโอโร แจ็คสันให้ราชาโจรสลัด โกล ดี. โรเจอร์ บนเกาะวอเตอร์เซเว่น แฟรงกี้ชอบประดิษฐ์เรือรบเล็ก (Battle Franky) จนถูกหน่วย CP5 นำไปใช้ใส่ร้ายทอม ทำให้ทอมต้องโทษประหาร แฟรงกี้พยายามหยุดขบวนรถไฟเดินสมุทรเพื่อช่วยอาจารย์จนร่างกายแหลกเหลว เขาจึงดัดแปลงร่างกายตนเองกลายเป็นไซบอร์กด้วยเศษเหล็ก และตั้งตนเป็นผู้นำแก๊งรื้อเรือแฟรงกี้แฟมิลี่ ต่อมาได้ร่วมมือกับกลุ่มหมวกฟางช่วยเหลือโรบิน และใช้ไม้สมบัติ "อดัม" สร้างเรือ เธาซันด์ ซันนี่ (Thousand Sunny) ให้กลุ่มหมวกฟาง ก่อนจะยอมเข้าร่วมเดินทาง
+          </p>
+        </div>
+        <div class="story-visual">
+          <div class="photo-card tilt-left">
+            <img src="image/Franky.jpg" alt="Zoro Story">
+          </div>
+        </div>
+      </article>
+
+       <!-- ตัวละครที่ 9: บรู๊ค (ข้อความซ้าย - รูปขวา) -->
+      <article class="story-row">
+        <div class="story-text">
+          <div class="story-meta">
+            <span class="story-num">09</span>
+            <span class="story-divider"></span>
+            <span class="story-category">BROOK</span>
+          </div>
+          <h2 class="story-title">
+            To reunite with his old friend,<br>
+            <span class="accent-text">Laboon</span>
+          </h2>
+          <p class="story-desc">
+            อดีตหัวหน้ากลุ่มอัศวินของอาณาจักรหนึ่ง ก่อนจะเข้าร่วมกลุ่มโจรสลัดรุมบาร์เมื่อกว่า 50 ปีก่อน ระหว่างการเดินทางกลุ่มถูกลอบโจมตีด้วยอาวุธพิษในทะเลฟลอเรียนไทรแองเกิลจนลูกเรือทยอยล้มตาย บรู๊คและพรรคพวกได้ร่วมกันเล่นเพลง "เหล้าของบิงส์" อัดใส่ไดอัลเสียงไว้เป็นครั้งสุดท้าย บรู๊คที่กิน ผลโยมิ โยมิ (ผลคืนชีพ) ทำให้วิญญาณกลับคืนสู่ร่างได้ แต่เนื่องจากหมอกหนาทำให้วิญญาณหาร่างนานถึง 1 ปี เมื่อเจอร่างก็เหลือเพียงโครงกระดูก เขาต้องลอยเคว้งคว้างอย่างโดดเดี่ยวบนซากเรือกว่าครึ่งศตวรรษ จนกระทั่งกลุ่มหมวกฟางมาพบที่ทริลเลอร์บาร์คและช่วยชิงเงาคืนมา
+          </p>
+        </div>
+        <div class="story-visual">
+          <div class="photo-card tilt-right">
+            <img src="image/Brook.jpg" alt="Sanji Story">
+          </div>
+        </div>
+      </article>
+
+         <!-- ตัวละครที่ 10: จินเบ (รูปซ้าย - ข้อความขวา) -->
+      <article class="story-row reverse">
+        <div class="story-text">
+          <div class="story-meta">
+            <span class="story-num">10</span>
+            <span class="story-divider"></span>
+            <span class="story-category">JINBE</span>
+          </div>
+          <h2 class="story-title">
+            To achieve peaceful coexistence<br>
+            <span class="accent-text">between humans and fish-men</span>
+          </h2>
+          <p class="story-desc">
+            มนุษย์เงือกสายพันธุ์ฉลามวาฬ อดีตทหารราชองครักษ์แห่งเกาะมนุษย์เงือกที่เข้าร่วมกลุ่มโจรสลัดพระอาทิตย์ภายใต้การนำของ ฟิชเชอร์ ไทเกอร์ หลังไทเกอร์เสียชีวิต จินเบขึ้นเป็นกัปตันและยอมรับตำแหน่ง "เจ็ดเทพโจรสลัด" จากรัฐบาลโลกเพื่อคุ้มครองเกาะมนุษย์เงือก ต่อมาเขาคัดค้านสงครามมารีนฟอร์ดจนถูกขังในคุกอิมเพลดาวน์ และได้รับการช่วยเหลือจากลูฟี่ ทั้งสองร่วมมือกันในสงครามและจินเบได้ช่วยชีวิตลูฟี่จากการโจมตีของอาคาอินุ รวมถึงดึงสติลูฟี่หลังการตายของเอส จินเบสัญญาว่าจะมาเข้าร่วมกลุ่มหลังเคลียร์พันธะกับกลุ่มโจรสลัดบิ๊กมัม และเข้าเป็นสมาชิกอย่างสมบูรณ์ในภาควะโนะคุนิ
+          </p>
+        </div>
+        <div class="story-visual">
+          <div class="photo-card tilt-left">
+            <img src="image/Jinbe.jpg" alt="Zoro Story">
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+  <!-- ==================== หน้าต่างเด้งดูรายละเอียด (Popup Modal) ==================== -->
+  <div id="artModal" class="modal-backdrop" onclick="closeModal(event)">
+    <div class="modal-box" onclick="event.stopPropagation()">
+      <button class="modal-close-btn" onclick="closeModal()">&times;</button>
+      <div class="modal-body">
+        <div class="modal-img-wrap">
+          <img id="modalImg" src="" alt="Detail View">
+        </div>
+        <div class="modal-text-wrap">
+          <h3 id="modalTitle">Artwork Title</h3>
+          <span class="modal-badge">Personal Collection</span>
+          <p id="modalDesc">คำอธิบายภาพชิ้นงาน...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ปุ่มแชตลอยมุมขวาล่าง -->
+  <aside class="floating-chat" aria-label="Customer Support">
+    <i class="fa-solid fa-comment-dots"></i>
+  </aside>
+
+<script>
+    // --- 1. ระบบควบคุม Pop-up Modal ---
+    function openModal(title, desc, imgSrc) {
+      document.getElementById('modalTitle').innerText = title;
+      document.getElementById('modalDesc').innerText = desc;
+      document.getElementById('modalImg').src = imgSrc;
+      document.getElementById('artModal').style.display = 'flex';
+      document.body.style.overflow = 'hidden'; // ล็อกไม่ให้เลื่อนหน้าจอเวลาเปิดดู
+    }
+
+    function closeModal(event) {
+      document.getElementById('artModal').style.display = 'none';
+      document.body.style.overflow = 'auto'; // คืนค่าการเลื่อนหน้าจอ
+    }
+
+    // กดปุ่ม Esc บนแป้นพิมพ์เพื่อปิด Popup ได้ด้วย
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeModal();
+    });
+
+
+    // --- 2. ระบบ Navbar Scroll & Active State ---
+    const navLinks = document.querySelectorAll('.nav-links a');
+    const sections = document.querySelectorAll('main[id], section[id]');
+
+    navLinks.forEach(link => {
+      link.addEventListener('click', function(e) {
+        const targetId = this.getAttribute('href');
+
+        if (targetId === '#home') {
+          e.preventDefault();
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+          navLinks.forEach(l => l.classList.remove('active'));
+          this.classList.add('active');
+          return;
+        }
+
+        const targetSection = document.querySelector(targetId);
+        if (targetSection) {
+          e.preventDefault();
+          const navbarHeight = document.querySelector('.navbar').offsetHeight;
+          const targetPosition = targetSection.offsetTop - navbarHeight;
+
+          window.scrollTo({
+            top: targetPosition,
+            behavior: 'smooth'
+          });
+          navLinks.forEach(l => l.classList.remove('active'));
+          this.classList.add('active');
+        }
+      });
+    });
+
+    window.addEventListener('scroll', () => {
+      const scrollPos = window.scrollY;
+      const navbarHeight = document.querySelector('.navbar').offsetHeight;
+
+      sections.forEach(section => {
+        const top = section.offsetTop - navbarHeight - 60;
+        const bottom = top + section.offsetHeight;
+        const id = section.getAttribute('id');
+
+        if (scrollPos >= top && scrollPos < bottom) {
+          navLinks.forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('href') === `#${id}`) {
+              link.classList.add('active');
+            }
+          });
+        }
+      });
+
+      // ค้นหาลิงก์ทั้งหมดที่มี href เริ่มต้นด้วย '#' (ทั้งเมนูด้านบนและปุ่มในหน้าเว็บ)
+    const allAnchorLinks = document.querySelectorAll('a[href^="#"]');
+    const navLinks = document.querySelectorAll('.nav-links a');
+    const sections = document.querySelectorAll('main[id], section[id]');
+
+    allAnchorLinks.forEach(link => {
+      link.addEventListener('click', function(e) {
+        const targetId = this.getAttribute('href');
+
+        if (targetId === '#home') {
+          e.preventDefault();
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+          navLinks.forEach(l => l.classList.remove('active'));
+          const homeLink = document.querySelector('.nav-links a[href="#home"]');
+          if (homeLink) homeLink.classList.add('active');
+          return;
+        }
+
+        const targetSection = document.querySelector(targetId);
+        if (targetSection) {
+          e.preventDefault();
+          const navbarHeight = document.querySelector('.navbar').offsetHeight;
+          const targetPosition = targetSection.offsetTop - navbarHeight;
+
+          window.scrollTo({
+            top: targetPosition,
+            behavior: 'smooth'
+          });
+
+          // อัปเดตขีดเส้นใต้สีแดง/เขียวที่เมนูด้านบนให้ตรงกับ Section ปลายทาง
+          navLinks.forEach(l => l.classList.remove('active'));
+          const targetNav = document.querySelector(`.nav-links a[href="${targetId}"]`);
+          if (targetNav) targetNav.classList.add('active');
+        }
+      });
+    });
+
+      if (scrollPos < 100) {
+        navLinks.forEach(link => link.classList.remove('active'));
+        const homeLink = document.querySelector('.nav-links a[href="#home"]');
+        if (homeLink) homeLink.classList.add('active');
+      }
+    });
+  </script>
+</body>
+</html>
